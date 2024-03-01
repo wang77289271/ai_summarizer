@@ -25,3 +25,8 @@ dist-ssr
 
 # Ignore .env files
 .env
+.env.*
+!.env.example
+
+# vscode
+.vscode
