@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        <img src={logo} alt='sumz_logo' className='w-16 object-contain' />
         <button
           className='black_btn'
           type='button'
@@ -21,7 +21,7 @@ const Hero = () => {
       </h1>
       <h2 className='desc'>
         Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries.
+        that condenses lengthy articles into clear summaries.
       </h2>
     </header>
   )
